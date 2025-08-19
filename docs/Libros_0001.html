@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Trabajos – Vladimir Sanchez Tenjo</title>
+<title>Preguntas, ideas, pensamientos a partir de libros. – Vladimir Sanchez Tenjo</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -39,6 +39,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -197,7 +200,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Trabajos</h1>
+<h1 class="title">Preguntas, ideas, pensamientos a partir de libros.</h1>
 </div>
 
 
@@ -214,8 +217,25 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Aca irian varios cuadernos .Rmd .ipynb</p>
-<hr>
+<p>Acá ire agregando algunas de las cosas que más me llegan de lo que este leyendo, algunas que ya tengo anotadas (o releyendo)… Mucho y todo de esto serán citas textuales/literales, en algunas ocaciones hare comentarios desde mi ignoracia tratado de enriquecer esto…no abra noveda. O trayendo una referencia/cita de Borges a Bacon en el Inmortal: <em>…toda novedad no es más que olvido.</em></p>
+<h3 class="anchored">
+<center>
+Critical Meme Reader III: Breaking the Meme
+</center>
+</h3>
+<p><a href="meme.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="meme.jpeg" class="img-fluid"></a></p>
+<h5 class="anchored">
+Contexto/Intro
+</h5>
+<p>
+El término/concepto <em>‘meme’</em> como objeto de estudio lo vi por primera vez en R. Dawkins (en su libro <em>El gen egoísta</em> de 1976), por allá en en el 2014-2015. Allí el autor utiliza el término para describir una unidad de información cultural que se transmite de una persona a otra, similar a cómo los genes transmiten información biológica. En este sentido, los memes pueden ser ideas, historias, hábitos, comportamientos, estilos, o prácticas que se propagan dentro de una cultura. Argumenta que así como los genes compiten por su supervivencia a través de la selección natural/evolución, los memes compiten por ser difundidos y adoptados por individuos dentro de una sociedad. Por tanto los memes más exitosos son aquellos que son más eficaces/eficientes en entenderse y ser replicados. Ejemplos de memes pueden ser melodías pegajosas, obras de arte, lemas publicitarios, modas, mitos, rituales religiosos,pinturas rupestre, obras arquitectónicas …Acá me atrevo a votar una idea : que los memes en todas sus expresiones son estados hacia donde la informacion/materia converge en el sentido de función y forma, i.e., si una forma de comunicación es funcional y operativa esta se integrara a los sistemas vivos.
+</p>
+<p>
+Otro autor que conozco que explora el concepto desde otra perpectiva (la antropología) es <em>Michael Taussig</em> en <em> Mímesis and Alterity - 1993</em>, estudia/explora la forma en que las miembros de una cultura adoptan la naturaleza, comportamientos y la cultura de otra lo que el autor llama el <em>proceso de mimesis</em>, al mismo tiempo que la niegan y se distancian de ella, <em> el proceso de alteridad</em>. Me llegan imagenes de las paginas de <em>Cien años de soledad</em>, puntualmente en las que el gitano Melquíades trae inventos científicos a Macondo de otros lugares que no pasan atren la atención José Arcadio (proceso de mímesis), llevandole a la locura. Por otro lado esta el papel de Úrsula (proceso de alteridad). Nota: Taussig toma una postura limitante hacia el alcance de método de estudio de la antropología, para acceder/explicar a una cultura a través de otra.
+</p>
+<p>
+Una autora de referencia es Susan Blackmore, que en su libro <em> La máquina de los memes</em>-1999, expandió la idea de Dawkins y exploró cómo los memes influyen en la evolución cultural. Según Blackmore, los seres humanos no solo son replicadores biológicos sino también replicadores meméticos, y esto ha tenido un impacto significativo en la evolución de nuestras sociedades y culturas. Una de las tesis principales es que <em>‘la cultura es una masa de memes’</em>. Señala los mitos, los inventos, el lenguaje y los sistemas políticos como estructuras hechas de memes. No todo es un meme.En el contexto cultural y social, los memes se ven como vehículos de comunicación y expresión que reflejan y a menudo critican la realidad social. En las redes sociales, por ejemplo, los memes a menudo son imágenes o videos con texto superpuesto que transmiten ideas, humor o críticas de manera rápida y accesible. Desde una perspectiva evolutiva, la propagación de memes puede ser vista como una forma de evolución cultural paralela a la evolución biológica. Los memes exitosos pueden influir en el comportamiento y las creencias de grandes grupos de personas, y, por lo tanto, pueden tener un impacto significativo en la dirección en la que una cultura evoluciona.
+</p>
 
 
 
@@ -641,6 +661,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","openEffect":"zoom","loop":false});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

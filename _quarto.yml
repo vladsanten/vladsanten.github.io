@@ -51,16 +51,8 @@ website:
       background: light
       collapse-level: 1
       contents:
-        - text: "Literatura"
-          href: Literatura.qmd
         - text: "Podcast"
           href: Podcast.qmd
-        - text: "Arte"
-          href: Arte.qmd
-        - text: "Musica"
-          href: Trabajo_Grado.qmd
-        - text: "Filosofía"
-          href: Trabajo_Grado.qmd
         - text: "Libros"
           href: Libros_02.qmd
         - text: "Películas"
@@ -70,7 +62,7 @@ format:
   html:
     theme: journal
     css: styles.css
-    toc: true git push origin main
+    toc: true
 
 
 
