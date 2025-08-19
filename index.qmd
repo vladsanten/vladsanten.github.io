@@ -1,11 +1,63 @@
 ---
-title: "vladsanten.github.io"
+title: 'Vladimir Sánchez Tenjo'
+subtitle: 'I want to be a Statistician and Data Scientist'
+image: foto_perfil.jpeg
+toc: false
+about: 
+  template: trestles
+  image-shape: round
+  image-width: 200px #20em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/vladsanten/
+    - text: Twitter
+      href: https://twitter.com/TenVlad
+    - text: GitHub
+      href: https://github.com/vladsanten
+    - text: Email
+      href: vladsanten@gmail.com
 ---
 
-This is a Quarto website.
+# Hola gente!
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Gracias por visitar mi sitio en internet, estoy animado de conocerte y poder ayudarte en cuestiones estadísticas y de datos. Espero encuentres algo de interés acá.
 
-```{r}
-1 + 1
-```
+<hr>
+
+# Educación
+
+**Pregrado en Estadística** (2023) | *Universidad Nacional de Colombia, Sede Bogotá*. Bogotá, D.C.
+
+# Experiencia
+
+**Estadístico** (May 2024 - Feb 2025) | TransMilenio  Bogotá, D.C.
+
+**Internship** (Ene 2023 - Jul 2023) | Refinancia S.A.S. Bogotá, D.C.
+
+**Estudiante de Investigación en Semillero análisis de datos ómicos** (2022 - 2023) | UNAL
+
+<hr>
+
+<footer style="font-size: 12px;">
+    <p> <em>The two greatest inventions of the human mind are writing and money—the common language of intelligence, and the common language of self-interest.</em></p>
+ <p> <code>Victor Riqueti, Marques de Mirabeau</code> </p>
+
+<!--<a href="https://host.kelley.iu.edu/nstoffma/"> Visto por primera vez acá</a></p> -->
+
+<p> <em>There are two ways to write error-free programs; only the third one works.</p> </em>
+<p> <code>Alan J. Perlis </code> </p>
+
+<!--
+<p> <em>There was a young fellow from Trinity <br>
+Who took $\sqrt{\infty}$ <br>
+But the number of digits <br>
+Gave him the fidgets; <br>
+He dropped Math and took up Divinity.</em></p>
+Gamow, George (1904–1968) en <em>One, two, three...infinity <a href="https://www.goodreads.com/book/show/52670.One_Two_Three_Infinity"> </a></em>
+</footer>
+-->
+
+<!-- You think you know when you can learn, are more sure when you can write, even more when you can teach, but certain when you can program
+https://www.cs.yale.edu/homes/perlis-alan/quotes.html -->
+
+

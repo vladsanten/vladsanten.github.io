@@ -1,0 +1,16 @@
+---
+title: "Recursos"
+editor: visual
+---
+
+`<h1><font size="6" color="`{=html}**#5633FF**`"><center>`{=html}Descargo de reponsabilidad y consejos de estudiante</center></font></h1>
+
+Aca va todo es todo lo relacionado ...
+
+
+
+
+
+
+
+------------------------------------------------------------------------

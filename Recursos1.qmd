@@ -1,0 +1,65 @@
+---
+title: "Libros"
+editor: visual
+---
+
+A lo largo de mi formación académica, las matemáticas, la estadística y la computación han sido pilares fundamentales. Durante mis estudios reuní una serie de libros y recursos que me ayudaron a comprender mejor estas áreas (en verdad aún lo hacen) y que, en su momento, marcaron mi aprendizaje.
+
+Este espacio es una manera sencilla de compartir esas referencias, con la idea de que puedan servirle a otros estudiantes, investigadores o curiosos que estén explorando estas disciplinas.
+
+
+<h2> 📘 Matemáticas</h2>
+
+- *Curso matemáticas básicas*- Margarita Ospina Pulido
+- *Precálculo* — R. Larson, R. P. Hostetler
+- *Matemáticas generales álgebra, análisis* - C. Pisot, M. Zamansky
+- *Curso de Matemáticas Básicas* — M. Ospina  
+- *Introducción a la Teoría de Conjuntos* — Lia Oubiña  
+- *Teoría Intuitiva de los Conjuntos* — P. Halmos  
+- *Book of Proof* — R. Hammack
+- *The Number Systems: Foundations of Algebra and Analysis* -S. Feferman
+- *Cálculo Diferencial en una Variable* — H. Dueñas & I. Rubio  
+- *Introducción al Cálculo* — Kazimierz Kuratowski  
+- *Cálculo Diferencial e Integral (Tomo I)* — N.S. Piskunov  
+- *Álgebra Lineal y sus Aplicaciones* — G. Strang  
+- *Matrix Algebra Useful for Statistics* — Searle  
+- *Calculus of Vector Functions* — R. E. Williamson  
+- *Introducción a la Teoría de Probabilidades y sus Aplicaciones* — W. Feller  
+- *Probabilidad* — L. Blanco  
+- *Curso Intermedio de Probabilidad* — L. Rincón  
+- *Introducción a los Procesos Estocásticos* — L. Rincón  
+- *Problemas de Ecuaciones Diferenciales Ordinarias* — G. N. Kiselev  
+- *Ecuaciones Diferenciales* — Kreider, Kuller & Ostberg  
+
+
+<h2> 📊 Estadística</h2>
+
+
+- *Introducción a la Estadística Inferencial* - L. Rincón  
+- *Statistical Inference* - G. Casella  
+- *Análisis Multivariante de Datos* - D. Peña  
+- *Análisis de Series Temporales* - D. Peña  
+- *Sampling and Estimation from Finite Populations* — Yves Tillé  
+- *Statistical Quality Control* - D. Montgomery  
+- *Design and Analysis of Experiments* — D. Montgomery  
+- *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* — Aurélien Géron  
+- *An Introduction to Statistical Learning* — T. Hastie, R. Tibshirani et al.  
+
+<h2> 💻 Computación</h2>
+
+- *Fundamentos de diseño de bases de datos* - A. Silberschatz, H. F. Korth, S. Sudarshan
+- *Introduction to Algorithms* - Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest & Clifford Stein  
+- *Structure and Interpretation of Computer Programs* - Harold Abelson & Gerald Jay Sussman  
+- *Artificial Intelligence: A Modern Approach* - Stuart Russell & Peter Norvig 
+- *The Art of Computer Programming* - Donald Knuth 
+- *Machine Learning* - Tom M. Mitchell
+- *Database System Concepts* - A.Silberschatz, H.F. Korth ,S. Sudarshan
+- *How to Design Programs* - M.Felleisen, R. B. Findler, M. Flatt, S. Krishnamurthi
+
+
+
+
+
+
+
+

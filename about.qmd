@@ -1,9 +1,44 @@
 ---
-title: "About"
+title: "Sobre Mí"
 ---
 
-About this site
+<!-- Siempre me gustaron las matemáticas y, de una u otra forma, ellas me llevaron a la estadística. Cuando estudiaba ingeniería electrónica conocí conceptos estadísticos las distribuciones de error, y aunque en ese momento apenas entendía un poco, algo me quedó muy claro: los datos eran más que números, eran una forma de ver el mundo. Decidí estudiar estadística casi por intuición, y con el tiempo descubrí que era la disciplina que conecta la observación, las hipótesis y las conclusiones, es decir, la esencia misma del método científico.
+
+Creo firmemente que entre más entendimiento tengamos, más herramientas tenemos para resolver problemas. Eso es lo que me motiva a trabajar con datos: convertir la información en conocimiento y el conocimiento en decisiones. Hoy mis intereses van hacia la arquitectura de datosla inteligencia artificial,  y todo lo que tenga que ver con estructurar y analizar información para entender mejor la realidad.
+
+Fuera del trabajo, disfruto seguir aprendiendo, explorar nuevas herramientas y encontrar conexiones inesperadas entre matemáticas, tecnología y la vida diaria. Este blog es un espacio para compartir parte de ese camino, mis aprendizajes y las ideas que me inspiran.
+
+Aprendí a leer a los seis años y desde entonces nunca dejé de hacerlo. La lectura me enseñó a acercarme al mundo con curiosidad y a buscar en cada línea un significado. Más adelante, cuando descubrí las matemáticas de forma más formal, ocurrió algo parecido: comprendí que era otra manera de leer la realidad, con estructuras, patrones y lógica.
+
+Esa conexión me llevó a la estadística, una disciplina que me permite interpretar datos, contrastar hipótesis y generar conclusiones útiles. Para mí, trabajar con datos es una extensión de esa primera experiencia: leer, comprender y transformar información en conocimiento.
+
+Hoy me interesa especialmente la inteligencia artificial, la arquitectura de datos y el desarrollo de soluciones que unan el análisis estadístico con problemas reales. Creo firmemente que los datos no solo describen el mundo, sino que también nos ayudan a tomar mejores decisiones sobre él.
+-->
+Aprendí a leer a los seis/siete años y desde entonces nunca dejé de hacerlo. La lectura me enseñó a acercarme al mundo con curiosidad y a buscar en cada línea un significado. Más adelante, cuando descubrí las matemáticas de forma más formal, ocurrió algo parecido: comprendí que era otra manera de leer la realidad, con estructuras, patrones y lógica.
+
+Esa conexión me llevó a la estadística, una disciplina que me permite interpretar datos, contrastar hipótesis y generar conclusiones útiles. Para mí, trabajar con datos es una extensión de esa primera experiencia: leer, comprender y transformar información en conocimiento.
+
+Hoy me interesa especialmente la arquitectura de datos, inteligencia artificial, modelamiento estadístico y el desarrollo de soluciones que unan el análisis estadístico con problemas reales. Creo firmemente que los datos no solo describen el mundo, sino que también nos ayudan a tomar mejores decisiones sobre él.
+
+---
+
+Fuera de lo estrictamente profesional, me interesa cómo distintas formas de conocimiento se entrelazan. Por ejemplo, en uno de los textos más antiguos de la humanidad, Las mil y una noches, hay un guiño matemático escondido: ¿por qué 1001 y no 1000 o 1002 noches 'canto' Sherazade ? 
+
+En aquellos tiempos, los sacerdotes matemáticos (grandes visires, magos) poseían un poder increíble, pues poseían los secretos matemáticos necesarios para la navegación y el comercio, así como para la contabilidad, la creación de calendarios y muchas cosas que hoy damos por sentado. En aquel entonces, por ejemplo, los ciudadanos comunes, y a menudo incluso el rey/gobernante, no sabían sumar, restar, multiplicar ni realizar otros cálculos.
+
+Una forma en que los sacerdotes mantenían a la población en la ignorancia era contando historias elaboradas o engañosas para ocultar la verdad y el conocimiento. Una de esas historias era el mito de Sherazade y sus Mil y una Noches.
+
+La respuesta está en la aritmética. 1001 es un número especial porque se descompone como 7 × 11 × 13, y ese juego de factores se relaciona con la tradición de considerar algunos números como de 'mala suerte'. Para mí, detalles como este son recordatorios de que tanto la literatura como la matemática son, en el fondo, distintas formas de leer el mundo y de encontrar patrones en él... Este blog es también un espacio para compartir esos intereses.
+
+
 
 ```{r}
-1 + 1
+# 1000^1 
+# 1000^2 = 1002001 
+# 1000^3 = 1003003001
+# 1000^4 = 1.004006e+12
+
+## Cada nuevo número total contiene un número que representa cada potencia.
+## La verdadera importancia de usar el 1001 reside en que permite una especie 
+## de abreviatura matemática (recursión?)
 ```

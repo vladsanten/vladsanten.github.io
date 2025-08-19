@@ -3,16 +3,72 @@ project:
   output-dir: docs
 
 website:
-  title: "vladsanten.github.io"
+  reader-mode: true
+  title: "Vladimir Sanchez Tenjo"
+  description: "Statistics, Data, Science"
   navbar:
+    background: primary # light
+    search: true
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: 'Principal'
+        href: index.qmd
+      - text: 'Acerca de Mí'
+        href: about.qmd
+      - sidebar:recursos
+      - sidebar:programas
+      - sidebar:pasatiempos
+
+  sidebar:
+    - id: recursos
+      title: "Recursos de aprendizaje"
+      style: "docked"
+      background: light
+      collapse-level: 1
+      contents:
+        - text: "Libros de Texto"
+          href: Recursos1.qmd
+        - text: "Recursos de Multimedia"
+          href: Recursos2.qmd
+        - text: "Otros"
+          href: Recursos3.qmd
+    - id: programas
+      title: "Programas prueba"
+      style: "docked"
+      background: light
+      collapse-level: 1
+      contents:
+        - text: "Test UVR"
+          href: Series_Tesuvr.qmd
+        - text: "RStudio Básico"
+          href: R_Tutorial_01.qmd
+        - text: "Computación"
+          href: Recursos3.qmd
+        - text: "Trabajo Grado"
+          href: Trabajo_Grado.qmd
+    - id: pasatiempos
+      title: "Pasatiempo prueba"
+      style: "docked"
+      background: light
+      collapse-level: 1
+      contents:
+        - text: "Literatura"
+          href: Literatura.qmd
+        - text: "Podcast"
+          href: Podcast.qmd
+        - text: "Arte"
+          href: Arte.qmd
+        - text: "Musica"
+          href: Trabajo_Grado.qmd
+        - text: "Filosofía"
+          href: Trabajo_Grado.qmd
+        - text: "Libros"
+          href: Libros_02.qmd
+        - text: "Películas"
+          href: Peliculas.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: journal
     css: styles.css
     toc: true
 

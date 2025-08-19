@@ -1,0 +1,12 @@
+---
+title: "Computación"
+editor: visual
+---
+
+Acá va lo de Computación 
+
+<h3>Probabilidad Nivel I</h3>
+
+<h2>
+
+<h2>
