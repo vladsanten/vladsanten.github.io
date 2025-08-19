@@ -1,0 +1,7 @@
+---
+title: "Trabajos"
+editor: visual
+---
+
+Aca irian varios cuadernos .Rmd .ipynb
+---
