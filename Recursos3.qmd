@@ -1,12 +1,17 @@
 ---
-title: "Computación"
+title: "Encuesta de Movilidad 2023"
 editor: visual
 ---
+## Contexto
 
-Acá va lo de Computación 
+Este tablero desarrollado dentro de PowerBi, es un ejercicio descriptivo a partir de datos abiertos de la [**Secretaría de Movilidad**](https://observatorio.movilidadbogota.gov.co/encuesta-de-movilidad)**.  
+El objetivo del ejercicio fue **procesar, limpiar y visualizar la información**  
 
-<h3>Probabilidad Nivel I</h3>
+### Flujo de trabajo
+1. **Alistamiento de datos:** integración y cargue de tablas.
+2. **Procesamiento:** transformación, cruce y creación de variables relevantes.
+3. **Visualización:** construcción de indicadores y gráficos interactivos.
+4. **Tablero final:** integración de todo en una herramienta dinámica .
 
-<h2>
+<iframe title="TableroEM2023_git_01" width="1180" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiOTY2NGFhMmMtNGQwNy00MWFiLWI3MWItODE0ZTM1YjcwNmY1IiwidCI6IjU3N2ZjMWQ4LTA5MjItNDU4ZS04N2JmLWVjNGY0NTVlYjYwMCIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
 
-<h2>

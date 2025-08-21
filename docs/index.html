@@ -68,6 +68,14 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Vladimir Sánchez Tenjo – Vladimir Sanchez Tenjo">
+<meta property="og:description" content="I want to be a Statistician and Data Scientist">
+<meta property="og:image" content="https://vladsanten.github.io/foto_perfil.jpeg">
+<meta property="og:site_name" content="Vladimir Sanchez Tenjo">
+<meta name="twitter:title" content="Vladimir Sánchez Tenjo – Vladimir Sanchez Tenjo">
+<meta name="twitter:description" content="I want to be a Statistician and Data Scientist">
+<meta name="twitter:image" content="https://vladsanten.github.io/foto_perfil.jpeg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -109,19 +117,19 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Recursos de Multimedia</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./Recursos3.html">
+    <a class="dropdown-item" href="./Libros_0001.html">
  <span class="dropdown-text">Otros</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-programas-prueba" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Programas prueba</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-proyectos" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Proyectos</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-programas-prueba">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-proyectos">    
         <li>
     <a class="dropdown-item" href="./Series_Tesuvr.html">
- <span class="dropdown-text">Test UVR</span></a>
+ <span class="dropdown-text">Serie de Tiempo - Ejercicio</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./R_Tutorial_01.html">
@@ -129,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="./Recursos3.html">
- <span class="dropdown-text">Computación</span></a>
+ <span class="dropdown-text">Power BI</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./Trabajo_Grado.html">
@@ -138,10 +146,10 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-pasatiempo-prueba" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Pasatiempo prueba</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-otros-intereses-y-recursos" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Otros intereses y recursos</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-pasatiempo-prueba">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-otros-intereses-y-recursos">    
         <li>
     <a class="dropdown-item" href="./Podcast.html">
  <span class="dropdown-text">Podcast</span></a>
@@ -188,16 +196,20 @@ ul.task-list li input[type="checkbox"] {
 </header>
     <div class="about-links">
   <a href="https://www.linkedin.com/in/vladsanten/" class="about-link" rel="" target="">
-     <span class="about-link-text">LinkedIn</span>
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text"></span>
   </a>
   <a href="https://twitter.com/TenVlad" class="about-link" rel="" target="">
-     <span class="about-link-text">Twitter</span>
+    <i class="bi bi-twitter-x"></i>
+     <span class="about-link-text"></span>
   </a>
   <a href="https://github.com/vladsanten" class="about-link" rel="" target="">
-     <span class="about-link-text">GitHub</span>
+    <i class="bi bi-github"></i>
+     <span class="about-link-text"></span>
   </a>
-  <a href="/vladsanten@gmail.com" class="about-link" rel="" target="">
-     <span class="about-link-text">Email</span>
+  <a href="mailto:vladsanten@gmail.com" class="about-link" rel="" target="">
+    <i class="bi bi-envelope"></i>
+     <span class="about-link-text"></span>
   </a>
 </div>
   </div>
@@ -228,7 +240,7 @@ ul.task-list li input[type="checkbox"] {
 <p>
 <em>There are two ways to write error-free programs; only the third one works.
 </em></p><em>
-</em>
+</em><p><em></em></p>
 <p>
 <code>Alan J. Perlis </code>
 </p>
@@ -334,7 +346,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/vladsanten\.github\.io");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

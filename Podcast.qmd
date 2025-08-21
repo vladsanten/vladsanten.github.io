@@ -55,9 +55,7 @@ En esta sección comparto algunos de los podcasts que escucho, una mezcla de los
 - **El Test de Turing**  
   Conversaciones sobre inteligencia artificial, filosofía y futuro tecnológico.  
 
-- **DOAC** (*nombre completo por confirmar*)  
-  Exploración crítica de temas actuales en ciencia y sociedad.
-  
+
 - **El Oficio de leer**  
   Exploración crítica de temas actuales en ciencia y sociedad.
   
@@ -70,4 +68,7 @@ En esta sección comparto algunos de los podcasts que escucho, una mezcla de los
  
 - **A Fondo** 
 Recopilación de los audios de las entrevistas del programa "A Fondo" emitido por la televisión pública española (TVE) entre los años 1976 y 1981, dirigido y presentado por el periodista Joaquín Soler Serrano.
+
+- **Idea Millonaria**  
+  Ciencia, tecnología, filosofía, cultura pop (y no pop), y muchos sinsentidos.
   

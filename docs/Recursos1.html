@@ -69,6 +69,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Libros – Vladimir Sanchez Tenjo">
+<meta property="og:description" content="Portafolio profesional en Estadística y Ciencia de Datos. Incluye proyectos en R, Power BI y análisis estadístico.">
+<meta property="og:site_name" content="Vladimir Sanchez Tenjo">
+<meta name="twitter:title" content="Libros – Vladimir Sanchez Tenjo">
+<meta name="twitter:description" content="Portafolio profesional en Estadística y Ciencia de Datos. Incluye proyectos en R, Power BI y análisis estadístico.">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -110,19 +116,19 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Recursos de Multimedia</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./Recursos3.html">
+    <a class="dropdown-item" href="./Libros_0001.html">
  <span class="dropdown-text">Otros</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-programas-prueba" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Programas prueba</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-proyectos" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Proyectos</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-programas-prueba">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-proyectos">    
         <li>
     <a class="dropdown-item" href="./Series_Tesuvr.html">
- <span class="dropdown-text">Test UVR</span></a>
+ <span class="dropdown-text">Serie de Tiempo - Ejercicio</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./R_Tutorial_01.html">
@@ -130,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="./Recursos3.html">
- <span class="dropdown-text">Computación</span></a>
+ <span class="dropdown-text">Power BI</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./Trabajo_Grado.html">
@@ -139,29 +145,13 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-pasatiempo-prueba" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Pasatiempo prueba</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-otros-intereses-y-recursos" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Otros intereses y recursos</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-pasatiempo-prueba">    
-        <li>
-    <a class="dropdown-item" href="./Literatura.qmd">
- <span class="dropdown-text">Literatura</span></a>
-  </li>  
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-otros-intereses-y-recursos">    
         <li>
     <a class="dropdown-item" href="./Podcast.html">
  <span class="dropdown-text">Podcast</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./Arte.qmd">
- <span class="dropdown-text">Arte</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./Trabajo_Grado.html">
- <span class="dropdown-text">Musica</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./Trabajo_Grado.html">
- <span class="dropdown-text">Filosofía</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./Libros_02.html">
@@ -215,7 +205,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Recursos3.html" class="sidebar-item-text sidebar-link">
+  <a href="./Libros_0001.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Otros</span></a>
   </div>
 </li>
@@ -294,6 +284,7 @@ ul.task-list li input[type="checkbox"] {
 📊 Estadística
 </h2>
 <ul>
+<li><em>Estadística descriptiva</em> - L. Rincón</li>
 <li><em>Introducción a la Estadística Inferencial</em> - L. Rincón<br>
 </li>
 <li><em>Statistical Inference</em> - G. Casella<br>
@@ -423,7 +414,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/vladsanten\.github\.io");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

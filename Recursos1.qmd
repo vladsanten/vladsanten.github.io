@@ -34,7 +34,7 @@ Este espacio es una manera sencilla de compartir esas referencias, con la idea d
 
 <h2> 📊 Estadística</h2>
 
-
+- *Estadística descriptiva* - L. Rincón
 - *Introducción a la Estadística Inferencial* - L. Rincón  
 - *Statistical Inference* - G. Casella  
 - *Análisis Multivariante de Datos* - D. Peña  

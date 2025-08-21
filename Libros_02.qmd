@@ -3,8 +3,6 @@ title: "Literatura"
 format: html
 ---
 
-# Literatura
-
 La literatura ha sido otro de mis grandes intereses, una forma de diálogo con las grandes ideas, la filosofía y la belleza del lenguaje. Estos son algunos de los libros y autores que más me han marcado:
 
 - *Así habló Zaratustra* - F. Nietzsche  
@@ -12,7 +10,9 @@ La literatura ha sido otro de mis grandes intereses, una forma de diálogo con l
 - *Más allá del bien y del mal* - F. Nietzsche  
 - *Siddhartha* — H. Hesse  
 - *El lobo estepario* - H. Hesse  
-- *El libro del desasosiego* - F. Pessoa  
+- *El libro del desasosiego* - F. Pessoa
+- *En las cimas de la desesperación* - E. Cioran
+- *Del inconveniente de haber nacido* - E. Cioran
 - *Cómo leer y por qué* - Harold Bloom
 - *Cómo hablar de libros que no se han leído* - P. Bayard
 - *Fragmentos* -  G. Steiner  
@@ -21,8 +21,11 @@ La literatura ha sido otro de mis grandes intereses, una forma de diálogo con l
 - *Ensayos y poemas* — P. Valéry  
 - *No leer* — A. Zambra  
 - *Esto es agua* - D. F. Wallace
+- *Todo y Más: Una Breve Historia del Infinito* - D. F. Wallace
 - *El lector* - B. Schlink
 - *Cartas a un joven disidente* - C. Hitchens
+- *Cartas a Lucio* - Seneca
+- *Cartas a un Buscador de sí Mismo* - D. Thoreau
 - *De que hablo cuando hablo de correr* - H. Murakami
 - *De que hablo cuando hablo de escribir* - H. Murakami
 - *Tao Te King* - Lao Tsé
@@ -31,22 +34,27 @@ La literatura ha sido otro de mis grandes intereses, una forma de diálogo con l
 - *No hay nadie en casa* - D. Ugrešić
 - *Una ofrenda musical* - L. Sagasti 
 - *Mishima o la visión del vacío* - M. Yourcenar
+- *El guardián entre el centeno* - J. D. Salinger
+- *Rebelión en la granja* - G. Orwell
+- *Cartas a un buscador de si mismo*
 - *Los Upanishad esenciales* - Pensamiento Hindu
 - *El Aleph* - J. L Borges
 - *Inquisiciones* - J. L Borges
 - *Yo, etcétera* - S. Sontang
-- *María Antioneta* S. Zweig
+- *María Antioneta* - S. Zweig
 - *El tiempo en la historia* - G. J. Whitrow
 - *El extraño caso del Dr. Jekyll y Mr. Hyde* - R. L. Stevenson
 - *El decamerón* - G. Boccaccio
 - *Asesinatos S.L.* - J. London & R. L. Fish
 - *Antifrágil* - N. Taleb
-- *Silencioso tao* - R. Smullya
-- *Meditaciones sobre la vida* - N. Robert	 
+- *Silencioso tao* - R. Smullyan
+- *Meditaciones sobre la vida* - R.Nozick
 - *Ejercicios de estilo* - Q. Raymond
 - *El ABC de la lectura* - E. L. Pound
 - *El ojo y el espiritu* - M. Merleau-Ponty
 - *El Aprendiz de Mago* - E. Rosero 
+- *Colección de Cuentos* - A. Poe, Maupassant, A. Chéjov
+
 ---
 
 ## Nota personal

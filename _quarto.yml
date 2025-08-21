@@ -5,7 +5,10 @@ project:
 website:
   reader-mode: true
   title: "Vladimir Sanchez Tenjo"
-  description: "Statistics, Data, Science"
+  description: "Portafolio profesional en Estadística y Ciencia de Datos. Incluye proyectos en R, Power BI y análisis estadístico."
+  site-url: "https://vladsanten.github.io"   # URL de tu sitio en GitHub Pages
+  open-graph: true     # Metadatos para compartir en redes
+  twitter-card: true   # Tarjeta de previsualización para Twitter/X
   navbar:
     background: primary # light
     search: true
@@ -30,23 +33,23 @@ website:
         - text: "Recursos de Multimedia"
           href: Recursos2.qmd
         - text: "Otros"
-          href: Recursos3.qmd
+          href: Libros_0001.qmd
     - id: programas
-      title: "Programas prueba"
+      title: "Proyectos"
       style: "docked"
       background: light
       collapse-level: 1
       contents:
-        - text: "Test UVR"
+        - text: "Serie de Tiempo - Ejercicio"
           href: Series_Tesuvr.qmd
         - text: "RStudio Básico"
           href: R_Tutorial_01.qmd
-        - text: "Computación"
+        - text: "Power BI"
           href: Recursos3.qmd
         - text: "Trabajo Grado"
           href: Trabajo_Grado.qmd
     - id: pasatiempos
-      title: "Pasatiempo prueba"
+      title: "Otros intereses y recursos"
       style: "docked"
       background: light
       collapse-level: 1
@@ -63,6 +66,3 @@ format:
     theme: journal
     css: styles.css
     toc: true
-
-
-
