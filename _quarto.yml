@@ -1,6 +1,11 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - robots.txt
+    - sitemap.xml
+    - resources:
+    - google72bf08f0e4b8776f.html
 
 website:
   reader-mode: true
